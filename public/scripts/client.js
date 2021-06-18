@@ -43,7 +43,6 @@ const createTweetElement = function(tweet) {
 const escape = function(str) {
   let div = document.createElement('div');
   div.appendChild(document.createTextNode(str));
-  console.log(div.innerHTML);
   return div.innerHTML;
 };
 
@@ -106,21 +105,11 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-  $(".toTopBtn").click(function() {
-    console.log("hhhhhhhh");
-    $("html, body").animate({
-      scrollTop: 0
-    }, "slow");
-  });
-});
-
 const loadtweets = function() {
   $.ajax("/tweets", {
     method: 'GET'
   })
     .then(res =>{
-      console.log(res);
       $(".tweets-container").empty();
       renderTweets(res);
     });
