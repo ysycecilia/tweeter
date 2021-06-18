@@ -15,3 +15,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+!["Screenshot of mobile devices"](https://github.com/ysycecilia/tweeter/blob/master/docs/mobile-version.png?raw=true)
+!["Screenshot of tweets on mobile"](https://github.com/ysycecilia/tweeter/blob/master/docs/mobile-tweets.png?raw=true)
+!["Screenshot of desktop"](https://github.com/ysycecilia/tweeter/blob/master/docs/desktop-version.png?raw=true)
+!["Screenshot of desktop with counter color change"](https://github.com/ysycecilia/tweeter/blob/master/docs/desktop-charlimit-error.png?raw=true)
+!["Screenshot of desktop with error msg and disabled subit button"](https://github.com/ysycecilia/tweeter/blob/master/docs/desktop-err-msg.png?raw=true)
