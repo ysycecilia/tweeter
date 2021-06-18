@@ -105,14 +105,7 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-  $(".toTopBtn").click(function() {
-    console.log("hhhhhhhh");
-    $("html, body").animate({
-      scrollTop: 0
-    }, "slow");
-  });
-});
+
 const loadtweets = function() {
   $.ajax("/tweets", {
     method: 'GET'
