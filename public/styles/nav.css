@@ -1,0 +1,13 @@
+nav {
+  width: 100%;
+  color: #ffffff;
+  padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+span {
+  font-family: Bungee;
+}
+
